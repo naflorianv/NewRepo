@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage"
+             BackgroundColor="Purple">
+    <Grid>
+        <Image Source="https://3.bp.blogspot.com/-XSLRteGUHAA/WTY14R-oATI/AAAAAAAAB5Y/yLAjZTQS_p472rIMgbcs_vnLAlkWrUb_ACLcB/s1600/iuiui.jpg" Aspect="aspectfill"></Image>
+        <BoxView Color="#1D3196" Opacity="0.4"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="25"></ColumnDefinition></Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackLayout>
+            <Label
+           BackgroundColor="BlueViolet"
+           Text="Hola Nataly" 
+           TextColor="White"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+           FontAttributes="Bold"
+           FontSize="30"/>
+            </StackLayout>
+        </Grid>
+    </Grid>
+        
+        
+
+</ContentPage>
